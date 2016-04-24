@@ -1,0 +1,392 @@
+@charset "utf-8";
+html,
+body {
+  height: 100%;
+}
+body {
+  font: 14px/24px Consolas, "Microsoft Yahei", Arial, "宋体";
+  color: #666;
+}
+.hide {
+  display: none;
+}
+.btn {
+  width: 188px;
+  height: 33px;
+  line-height: 31px;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  vertical-align: middle;
+  transition: all 0.3s;
+}
+.btn--green {
+  background: #57d59e;
+}
+.btn--lou {
+  background: transparent;
+  border: 1px solid #fff;
+}
+.btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+.section {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.section .bg {
+  height: auto;
+}
+.section .bg img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.section .content-w {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 1;
+}
+/*header*/
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.header .tool-bar {
+  height: 28px;
+  background: #333333 url("../../images/login/m-icon.png") no-repeat 360px 50%;
+}
+.header .tool-bar a{
+  display: block;
+  width: 76px;
+  height: 28px;
+  margin-left: 360px;
+} 
+.header .nav {
+  height: 80px;
+  background: #ffffff url("../../images/login/logo-icon.png") no-repeat 360px 50%;
+  overflow: hidden;
+}
+.header .nav ul {
+  margin: 0;
+  padding-left: 757px;
+  overflow: hidden;
+}
+.header .nav ul li {
+  height: 80px;
+  line-height: 80px;
+  float: left;
+  margin-right: 60px;
+  list-style: none;
+}
+.header .nav a {
+  display: block;
+  text-decoration: none;
+  color: #888;
+}
+.header .nav a:hover {
+  color: #7ddeb4;
+}
+.header .nav .on a {
+  color: #7ddeb4;
+}
+.page1 {
+  padding-top: 108px;
+}
+.page1 .tip {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -113px 0 0 -314px;
+  z-index: 3;
+}
+.page1 .btn-group {
+  margin-top: 32%;
+  text-align: center;
+}
+.page1 .btn-group .btn {
+  margin: 0 5px;
+}
+.page1 .aa {
+  position: absolute;
+  z-index: 1000;
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -260px;
+  transition: all 0.5s;
+}
+.page1 .aa .h {
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  padding-left: 10px;
+  background: #57d59e;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.page1 .aa .h i {
+  position: absolute;
+  right: 10px;
+  font-style: normal;
+  font-size: 20px;
+  cursor: pointer;
+}
+.page1 .aa .c {
+  color: #666;
+  text-align: center;
+}
+.page1 .aa img {
+  width: 75%;
+  height: 75%;
+}
+.page2 .logo-s {
+  display: none;
+}
+.page2 .btn-down-group {
+  position: absolute;
+  left: 0;
+  bottom: 65px;
+  z-index: 2;
+}
+.page2 .content-w {
+  position: absolute;
+  top: 42%;
+  left:24.5%;
+  width: 619px;
+  height: 357px;
+  overflow: hidden;
+  background: url("../../images/login/logo.png") no-repeat center;
+}
+.page2 a {
+  display: inline-block;
+  width: 197px;
+  height: 83px;
+}
+.page2 .android {
+  margin-right: 50px;
+  background: transparent url("../../images/login/for-Android.png") no-repeat center;
+}
+.page2 .ios {
+  background: transparent url("../../images/login/for-IOS.png") no-repeat center;
+}
+.page2 .bg-item {
+  position: relative;
+}
+.page2 .bg-item > img {
+  display: block;
+  width: 100%;
+}
+.page3 .content-w {
+  top: 200px;
+}
+.page3 .executives-w {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  margin-left: -120px;
+  width: 280px;
+}
+.page3 .executives-w ul {
+  padding: 0;
+}
+.page3 .executives-w li:first-child {
+  letter-spacing: 1px;
+}
+.page4 .contact-w {
+  left: 50%;
+  top: 200px;
+  margin-left: -484px;
+  width: 968px;
+  height: 653px;
+  overflow: hidden;
+  background: #fff;
+}
+.page4 .contact-w .map {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+.page4 .contact-w .via {
+  position: absolute;
+  left: 530px;
+  top: 130px;
+}
+.page4 .contact-w .via li,
+.page3 .executives-w li {
+  list-style: none;
+  text-align: left;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+  font-size: 22px;
+}
+.page4 .contact-w .all-qr-w {
+  width: 860px;
+  height: 260px;
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  margin-left: -430px;
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  z-index: 100;
+}
+.page4 .contact-w .all-qr-w img {
+  display: block;
+  border-top: none;
+  margin-left: -50px;
+}
+.container .login-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.2);
+  z-index: 999;
+}
+.container .login {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 280px;
+  height: auto;
+  margin-left: -160px;
+  margin-top: -200px;
+  padding: 20px;
+  background: #333;
+  color: #FFF;
+  -moz-border-radius: 15px;      /* Gecko browsers */
+  -webkit-border-radius: 15px;   /* Webkit browsers */
+  border-radius:15px;  
+  z-index: 1000;
+}
+.container input {
+  color: #666;
+}
+#error-tip{
+  color: #FF9934;
+}
+
+.closer {
+    display: block;
+    float: right;
+    margin: -5px;
+    width: 25px;
+    height: 25px;
+    background: #FFF;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: serif;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    text-shadow: 0 0 15px  rgba(0,0,0,0.3);
+    -webkit-text-stroke: 2px rgba(0,0,0,0.3);
+    text-stroke: 2px rgba(0,0,0,0.3);
+}
+.container .fn-clear{
+  font-size: 23px;
+  font-weight: normal;
+  text-align: center;
+  margin: 30px auto 50px auto;
+}
+.container .left-text{
+  display: none;
+}
+.container .infor-input, .container .login-btn{
+  display: block;
+  width: 230px;
+  padding-left: 50px;
+  height: 45px;
+  background: #FFF;
+  border: 0;
+  line-height: 45px;
+  border-radius: 3px;
+  outline: none;
+  font-size: 16px;
+  margin: 30px 0; 
+}
+#mobile,#password{
+  background: #FFF url('') no-repeat 13px 50%;
+}
+#mobile{
+  background-image: url('../../images/login/account.jpg');
+  background-size: 25px;
+}
+#password{
+  background-image: url('../../images/login/pwd.png');
+  background-size: 25px;
+}
+.sign-tip{
+  font-size: 14px;
+  text-align: right;
+}
+.sign-tip a{
+  color: #FFF;
+}
+.sign-tip .reg-tip{
+  color: #FF9934;
+}
+.remember-label {
+  display: inline-block;
+  float: right;
+}
+.remember-text {
+  margin-left: 6px;
+  vertical-align: 3px;
+}
+.container .login-btn{
+  padding: 0;
+  background: #57d59e;
+  color: #FFF;
+  text-align: center;
+  width: 280px; 
+  cursor: pointer;
+}
+
+@media screen and (max-width:1500px){
+  .page2 a {
+    width: 185px;
+  }
+  .page2 .android {
+    margin-right: 10px;
+  }
+  .page2 .android,
+  .page2 .ios {
+    background-size: contain;
+  }
+}
+@media screen and (max-width:1366px){
+  .page2 a {
+    width: 175px;
+  }
+  .page2 .android {
+    margin-right: 0;
+  }
+  
+}
+@media screen and (max-width:600px){
+  .container .login {
+    position: fixed;
+    padding: 10px;
+    margin: -190px 0 0 -150px; 
+  }
+}

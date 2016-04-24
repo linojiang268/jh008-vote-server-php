@@ -1,0 +1,22 @@
+/vendor
+/node_modules
+.env
+
+# eclipse generated meta files
+.settings
+.buildpath
+.project
+
+# mac files
+.DS_STORE
+/nbproject/private/
+
+# netbeans files
+/nbproject/
+
+.env.gitattributes
+# intellij generated meta files
+.idea
+
+# ctags file
+tags

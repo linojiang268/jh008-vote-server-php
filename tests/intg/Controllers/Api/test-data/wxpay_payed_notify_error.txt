@@ -1,0 +1,3 @@
+<xml>
+   <return_code><![CDATA[FAIL]]></return_code>
+</xml>

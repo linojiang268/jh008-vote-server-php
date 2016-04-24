@@ -1,0 +1,246 @@
+@charset "utf-8";
+html ,body{
+  -webkit-text-size-adjust:none;
+  font-size: 10px;
+}
+input {
+  -webkit-appearance:none; 
+  padding: 0;
+}
+body {
+	/*background: green;*/
+}
+.page {
+	/*top: 0;*/
+	padding-top: 0;
+}
+.pr {
+	position: relative;
+}
+
+
+.section-authentication {
+	padding-bottom: 6.2rem;
+}
+.section-authentication .ac-title{
+	padding: 1.1rem 2.2rem 1.5rem 2.2rem;
+	font-size: 1.2rem;
+	text-align: left;
+	word-wrap: break-word;
+	letter-spacing: 1px;
+}
+
+.section-captcha-validate {
+	position: relative;
+	padding: 0 2.2rem;
+	overflow: hidden;
+}
+.section-captcha-validate input{
+	border: 1px solid #ccc;
+	/*padding: 10px 0;*/
+	padding: 9px 0;
+	font-size: 16px;
+	border-radius: 0;
+}
+.section-captcha-validate .phone-w{
+	width: 100%;
+}
+.section-captcha-validate input.phone-input{
+	/*border-right: 0;*/
+	padding-left: 5px;
+	/*max-width: 55%;
+	width: 55%;*/
+	width: 100%;
+	/*height: 36px;*/
+	vertical-align: middle;
+}
+.section-captcha-validate .get-captcha{
+	max-width: 44%;
+	width: 43%;
+	/*height: 36px;*/
+	vertical-align: middle;
+}
+.section-captcha-validate .error-mes{
+	padding: 0.7rem 0;
+	color: red;
+	font-weight: bold;
+}
+.section-captcha-validate input.captcha-input{
+	max-width: 45%;	
+	padding-left: 5px;
+	letter-spacing: 1px;
+	/*height: 36px;*/
+}
+.section-captcha-validate input.captcha-input::-webkit-input-placeholder {
+	letter-spacing: 0;
+}
+.section-captcha-validate .img-captcha {
+	border:1px solid #ccc;
+	/*width: 43%;
+	max-width: 44%;
+	height:35px;*/
+	float:right;
+}
+.section-captcha-validate .captcha-tip {
+/*	float: right;
+	width: 43%;*/
+	padding-top: 5px;
+	text-align: right;
+	color: #666;
+}
+.submit-w {
+	/*margin: 1.8rem 1rem 0 1rem;*/
+	margin: 1.3rem 1rem 0 1rem;
+	padding: 2.5rem 1.2rem 0 1.2rem;
+	border-top: 1px solid rgb(227,227,227);
+}
+.submit-w .validate {
+	height: 3rem;
+	line-height: 3rem
+}
+
+/* 活动信息 */
+.section-ac-process,
+.section-organizers {
+	padding: 0 1rem;
+}
+.a-title {
+	position: relative;
+	padding: 1rem 0 0.5rem 0;
+	color: #313133;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+.sign-symbol {
+	position: absolute;
+	right: 0rem;
+	top: 1.25rem;
+	width: 5rem;
+	height: 2rem;
+	background: #fff url("../images/sign-icon.png") no-repeat center;
+	background-size: cover;
+}
+.more-arrow {
+	position: relative;
+	display: block;
+	text-align: right;	
+	font-size: 1.5rem;
+	color: #0088cc;
+}
+.more-arrow.hiding {
+	display: none;
+}
+.more-arrow i {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 18px;
+	line-height: 18px;
+	font-style: normal;
+	color: #000;
+}
+.process-item {
+	font-size: 1.5rem;
+	letter-spacing: 1px ;
+	color: #000;
+}
+.process-item.hiding {/*计算过了，232px基本可以兼容所有情况*/
+	height: 232px;
+	overflow: hidden;
+}
+.process-item i {
+	width: 4%;
+	display: inline-block;
+	text-align: center;
+	font-style: normal;
+}
+.process-item dl {
+	margin-bottom: 1rem;
+}
+.process-item dl dt{
+	padding-bottom: 1rem;
+	text-align: center;
+}
+.process-item .date {
+	border-bottom: 1px solid #000;
+}
+.process-item dl dd {
+	margin: 3px 0;
+	text-align: center;
+	background: #f4f4f4;
+}
+.process-item dl dd span{
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+	/*background: #ccc;*/
+}
+.process-item dl dd span:first-child{
+	/*padding-right: 5px;*/
+	max-width: 100px;
+	height: 100%;
+}
+.process-item dl dd span:first-child + i + span{
+	padding-left: 5px;
+	text-align: left;
+}
+.process-item .no-ac-plan {
+	padding-top: 180px; 
+	text-align: center;
+	color: #adadad;
+	background: #fff url('../images/ac-null.png') no-repeat center;
+	background-size: 110px 137px;
+}
+.section-annex .a-title {
+	padding-left: 1rem
+}
+.section-annex .annex-w {
+}
+.section-annex .annex-w .annex-item {
+	float: left;
+	margin: 2.5%;
+	padding-top: 22%;
+	display: block;
+	width: 20%;
+	color: #adadad;
+	font-weight: bold;
+	text-align: center;
+	/*background: #ccc;*/
+}
+.annex-w .item1 {
+	background: #fff url('../images/member-icon.png') no-repeat center top;
+}
+.annex-w .item2 {
+	background: #fff url('../images/photo-icon.png') no-repeat center top;
+}
+.annex-w .item3 {
+	background: #fff url('../images/doc-icon.png') no-repeat center top;
+}
+.annex-w .item4 {
+	background: #fff url('../images/scene-icon.png') no-repeat center top;
+}
+.annex-w .annex-item {
+	background-size: contain;
+}
+.section-organizers {
+	clear: both;
+	padding-bottom: 1.5rem;
+}
+.section-organizers ul li{
+	text-align: center;
+	color: #adadad
+}
+
+.c-w {
+	position: relative;
+}
+.captcha-loading {
+	position: absolute;
+	width: 122px;
+	height: 38px;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+	text-align: center;
+	background: rgba(255,255,255,0.9);
+}

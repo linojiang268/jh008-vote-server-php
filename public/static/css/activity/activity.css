@@ -1,0 +1,13 @@
+.activity-select {
+    margin: 20px 0 0 0;
+    width: 300px;
+}
+.search-w .date-w {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.search-w .btn-search {
+    margin-left: 15px;
+}
+

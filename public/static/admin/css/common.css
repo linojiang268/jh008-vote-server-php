@@ -1,0 +1,27 @@
+html,body{
+    font-size: 14px;
+    font-family: "微软雅黑","Microsoft YaHei", "Verdana", "Arial";
+    background: none !important;
+}
+
+.menu-warp {
+    min-height: 600px;
+}
+
+/* tag-dia */
+.tag-dia-top {
+    height: 150px;
+}
+.tag-dia-bot {
+    height: 200px;
+}
+.tag-dia .tag-button {
+    margin: 0 10px 5px 0;
+}
+
+.tags-len {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 100px;
+}

@@ -1,0 +1,12 @@
+suites:
+    main:
+        namespace: Jihe
+        psr4_prefix: Jihe
+        src_path: app
+        spec_path: tests
+
+extensions:
+    - PhpSpec\Laravel\Extension\LaravelExtension
+
+laravel_extension:
+    testing_environment: 'testing'

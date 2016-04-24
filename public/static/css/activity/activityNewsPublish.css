@@ -1,0 +1,18 @@
+h2 {
+	font-size: 21px;
+	font-weight: bold;
+}
+.news-cover-upload {
+	overflow: hidden;
+}
+a.news-submit {
+	margin-top: 20px;
+	padding: 4px 16px;
+}
+.webuploader-pick { /* 复写webuploader样式 */
+    color: #999;
+    background: #fff;
+}
+.ui-uploadThumb-link:hover .webuploader-pick {
+	color: #666;
+}

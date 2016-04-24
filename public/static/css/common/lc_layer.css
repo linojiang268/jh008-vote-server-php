@@ -1,0 +1,44 @@
+/* layer样式覆盖 */
+.lc-layui-layer {
+	border-radius: 4px;
+}
+.lc-layui-layer .alert-con {
+	margin-top: 12px;
+	text-align: center;
+	color: #999;
+}
+.lc-layui-layer .layui-layer-btn {
+	padding: 10px 30px 26px 30px;
+}
+.lc-layui-layer .layui-layer-btn a {
+	border-radius: 4px;
+	font-weight: normal;
+	color: #fff;
+}
+.lc-layui-layer .layui-layer-btn .layui-layer-btn1 {
+  	background: #f39a33;
+}
+.lc-layui-layer .button {
+	line-height: normal;
+}
+
+.lc-layui-tip-white {
+	border: 1px solid #e4e4e7;
+}
+.lc-layui-tip-white div.layui-layer-content  {
+	background-color: #fff;
+}
+.lc-layui-tip-white .button {
+	line-height: 1;
+}
+.lc-layui-tip-white i.layui-layer-TipsB {
+  	top: -16px;
+}
+.lc-layui-tip-white .layui-layer-content i.layui-layer-TipsT, .lc-layui-tip-white .layui-layer-content  i.layui-layer-TipsB {
+	left: 5px;
+	border-bottom-color: #ccc;
+	border-right-color: transparent;
+}
+.lc-layui-tip-white .layui-layer-content i.layui-layer-TipsB {
+	top: -16px;
+}

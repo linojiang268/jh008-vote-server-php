@@ -1,0 +1,72 @@
+@charset "utf-8";
+.tc {
+	text-align: center;
+}
+.tl {
+	text-align: left;
+}
+.modal-mask {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+	z-index: 1;
+}
+.modal-w {
+	position: fixed;
+	z-index: 2;
+	left: 50%;
+	top: 50%;
+	border-radius: 10px;
+	overflow: hidden;
+	background: #fff;
+	width: 60%;
+	margin-left: -30%;
+	height: 0;
+}
+.modal-w .modal-title {
+	position: relative;
+	margin: 0;
+	padding: 10px 30px;
+	font-weight: normal;
+	word-wrap: break-word;
+	background: #ccc;
+	line-height: 1;
+	font-size: 13px;
+} 
+.modal-w .modal-title .modal-close {
+	position: absolute;
+	display: none;
+	right: 10px;
+	top: 8px;
+	width: 20px;
+	height: 20px;
+	line-height: 15px;
+	text-align: center;
+	color: #fff;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	cursor: pointer;
+}
+.modal-w .modal-content {
+	padding: 10px 16px;
+	text-align: center;
+	word-wrap: break-word;
+	overflow: auto;
+	color: #666;
+	font-size: 13px;
+}
+.modal-w .modal-operate {
+	position: absolute;
+	width: 100%;
+	bottom: 20px;
+	text-align: center;
+}
+.modal-w .modal-operate .sure-btn {
+	padding: 5px 18px;
+	border: 0;
+	border-radius: 2px;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #FFB000;
+}

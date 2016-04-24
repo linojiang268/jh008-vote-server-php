@@ -1,0 +1,9 @@
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+.content-tip {
+    margin: 120px 0 0 0;
+    font-weight: bolder;
+    font-size: 14px;
+}

@@ -1,0 +1,77 @@
+/* all page css */
+
+
+dl.filter-bar {
+    display: block;
+    margin-top: 10px;
+}
+dl.filter-bar dt {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    font-size: 14px;
+    font-weight: bolder;
+    width: 150px;
+}
+dl.filter-bar dd {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-right: 20px;
+    font-size: 12px;
+}
+dl.filter-bar a {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding: 3px 5px;
+}
+dl.filter-bar a:hover {
+    background-color: #f39a33;
+    color: #fff;
+    border-radius: 3px;
+}
+dd.filter-select:hover {
+    background-color: #FAB70A;
+}
+dd.filter-select a {
+    background-color: #f39a33;
+    color: #fff;
+    border-radius: 3px;
+}
+/* team.css */
+
+
+/* accountant */
+.search-w .date-w {
+  display: inline-block;
+}
+.section-finance-pop {
+    padding: 10px 0 0 80px;
+}
+.section-finance-pop .finance-item {
+    margin: 10px 0;
+}
+.section-finance-pop .finance-item label{
+    display: inline-block;
+    width: 50px;
+}
+.section-finance-pop .finance-item label[for='f-voucher'] {
+    vertical-align: top;
+}
+.section-finance-pop .finance-item .f-evidence {
+    display: inline-block;
+}
+.webuploader-pick { /* 复写webuploader样式 */
+    color: #999;
+    background: #fff;
+}
+.ui-uploadThumb-link:hover .webuploader-pick {
+    color: #666;
+}
+.popMask { /*必须在pop外面包一层，内层pop容器一定不能设置display：none，否则上传按钮点不了*/
+    width: 20px;
+    height: 20px;
+    background: white;
+    overflow: hidden;
+}

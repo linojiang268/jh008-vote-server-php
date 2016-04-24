@@ -1,0 +1,211 @@
+.team-page {
+    padding-bottom: 6em;
+}
+.team-infor {
+    font-size: 14px;
+    padding: 0;
+}
+.team-infor .infor-logo {
+    width: 5em;
+    height: 5em;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+.team-infor .infor-logo-wrap {
+    position: relative;
+}
+.team-infor .logo {
+    vertical-align:middle;
+}
+.team-infor .logo-frame {
+    height: 5em;
+    border-radius: 2.5em;
+    /*非IE的主流浏览器识别的垂直居中的方法*/
+    display: table-cell;
+    vertical-align:middle;
+
+    /*设置水平居中*/
+    text-align:center;
+
+    /* 针对IE的Hack */
+    *display: block;
+    *font-size: 175px;/*约为高度的0.873，200*0.873 约为175*/
+    *font-family:Arial;/*防止非utf-8引起的hack失效问题，如gbk编码*/
+    overflow: hidden;
+}
+.team-infor .name-con {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+.name-con .title {
+    display: block;
+    margin-top: 0.2em;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: left;
+}
+.name-con .time {
+    display: block;
+    font-size: 1.2em;
+    color: #ccc;
+    text-align: left;
+    margin-top: 0.1em;
+}
+.team-infor .phone {
+    display: inline-block;
+    width: 2.5em;
+    float: right;
+    margin: 1.2em 1em 0 0;
+}
+.team-numbers {
+    padding: 2em 0;
+    border-bottom: 1px solid #ccc;
+}
+.team-numbers ul li {
+    width: 33.333%;
+    display: block;
+    float: left;
+}
+.team-numbers ul li a {
+    border-right: 1px solid #ccc;
+    display: block;
+    color: #333;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.team-numbers ul li a img {
+    width: 1.5em;
+    display: inline-block;
+}
+.team-numbers ul li a span {
+    display: inline-block;
+    line-height: 1;
+}
+.team-numbers li:nth-child(1) a img {
+    margin-left: 1em;
+}
+.team-numbers li:nth-child(2) a {
+    text-align: center;
+}
+.team-numbers li:nth-child(3) a {
+    border: none;
+    text-align: right;
+}
+.team-numbers li:nth-child(3) a span {
+    margin-right: 1em;
+}
+/* .content-nav {
+    border-bottom: 1px solid #e1e8eb;
+    box-shadow: 0 1px 6px 0px rgba(0, 0, 0, .3) 
+}  
+.content-nav li {
+    width: 33.3333%;
+    float: left;
+}
+.content-nav li a {
+    display: block;
+    border-right: 1px solid #e1e8eb;
+    padding: 3em 0;
+}
+.content-nav li:nth-child(2) {
+    border-color: #fff;
+}
+.content-nav li .item-img-wrap {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+.content-nav li .name {
+    display: block;
+    font-size: 1.8em;
+    margin-top: 1.5em;
+    text-align: center;
+    color: #333;
+} */
+.team-main {
+    margin-top: 2em;
+    padding: 0 2em 2em;
+}
+.team-footer {
+    text-align: center;
+}
+.join-team-btn {
+    margin-top: 0.3em;
+}
+
+.t-actList-item {
+    display: block;
+    border-top: 1px solid #e3e3e3;
+}
+.t-actList-link {
+    display: block;
+    color: #333;
+    padding: 0 0 1em;
+}
+.t-actList-link:visited  {
+    color: #333;
+}
+.t-actList-tip {
+    margin: 0.6em 0 -0.3em;
+}
+.t-actList-content {
+    margin-top: 1.3em;
+}
+.t-actList-content .name {
+    font-size: 1.2em;
+    display: inline-block;
+    float: left;
+    line-height: 1;
+    font-weight: bolder;
+}
+.t-actList-time .detail {
+    display: block;
+    float: right;
+    margin-right: 1em;
+}
+.t-actList-time .detail-text {
+    color: #ccc;
+    font-size: 1.2em;
+    line-height: 1;
+    margin-right: 2em;
+    display: inline-block;
+}
+.detail-icon {
+    display: inline-block;
+    width: 0.6em;
+    vertical-align: -3px;
+}
+.t-actList-time {
+    margin-top: 1em;
+}
+.t-actList-time span {
+    display: inline-block;
+}
+
+.content-page .down-banner {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .team-infor {
+        font-size: 10px;
+    }
+    .team-numbers ul li a img {
+        width: 1em;
+        vertical-align: -1px;
+    }
+    .team-numbers ul li a {
+        font-size: 1em;
+    }
+    .join-team-btn {
+        margin-top: 0.8em;
+    }
+    .team-activity {
+        font-size: 12px;
+    }
+    .t-actList-time .detail-text {
+        margin-right: 1em;
+    }
+}

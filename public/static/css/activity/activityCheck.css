@@ -1,0 +1,332 @@
+.hide {
+	display: none;
+}
+/*.h_1 {
+	margin-left: 30px;
+	width:970px;
+	height: 60px;
+	line-height: 60px;
+	font-weight: bold;
+}
+.h_2 {
+	float:left;
+	width: 17px;
+	height: 100%;
+	background: url('../../images/icon-list-title.png') no-repeat center;
+}
+.h_3 {
+	float:left;
+	width: auto;
+	height: 100%;
+	font-size: 16px;
+	margin-left:5px;
+}*/
+.activity-title {
+    width:970px;
+    height: 60px;
+    line-height: 60px;
+    font-weight: bold;
+}
+.activity-title .img {
+    float:left;
+    width: 17px;
+    height: 100%;
+    background: url('../../images/icon-list-title.png') no-repeat center;
+}
+.activity-title .text {
+    float:left;
+    width: auto;
+    height: 100%;
+    font-size: 16px;
+    margin-left:5px;
+}
+.clear {
+	clear: both;
+}
+.m_1 {
+	margin-left: 15px;
+	width:940px;
+	height: auto;
+	background-color: white;
+}
+.dh {
+	width: 100%;
+	height: 54px;
+}
+.dh1 {
+	display: block;
+	float: left;
+	width:125px;
+	height: 50px;
+	line-height: 50px;
+	border-top:3px solid #1EA0D2;
+	border-right: 1px solid #DEDEDE;
+	cursor: pointer;
+	font-size: 16px;
+	text-align: center;
+}
+.dh2 {
+	display: block;
+	float: left;
+	width:125px;
+	height: 50px;
+	line-height: 50px;
+	border-right: 1px solid #DEDEDE;
+	border-top: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+	cursor: pointer;
+	text-align: center;
+	font-size: 16px;
+}
+.dh3 {
+	float: left;
+	width:182px;
+	height: 50px;
+	line-height: 50px;
+	border-right: 1px solid #DEDEDE;
+	border-top: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+}
+.fx {
+	background: url('../../images/icon-list-share.png') no-repeat 30%;
+	border-left:1px solid #DEDEDE;
+}
+.qd {
+	background: url('../../images/icon-list-qrcode.png') no-repeat 13%;
+}
+.sh {
+	background: url('../../images/icon-list-examine.png') no-repeat 15%;
+}
+.fz {
+	background: url('../../images/icon-list-group.png') no-repeat 30%;
+}
+.tz {
+	background: url('../../images/icon-list-note.png') no-repeat 15%;
+}
+.xc {
+	background: url('../../images/icon-list-album.png') no-repeat 30%;
+}
+span {
+	color: #656565;
+}
+.lr {
+	width: 100%;
+	height: auto;
+	min-height: 722px;
+}
+.lr1 {
+	width:900px;
+	height:30px;
+	line-height: 30px;
+	text-align: right;
+	color: #FD9A34;
+}
+.b-table {
+	transition: all 0.5s;
+}
+.xxk {
+	float: left;
+	/*width:50px;*/
+	height:145px;
+}
+.xxk .on {
+	background: #1EA0D2;
+	color: #fff;
+	*background: url('../../images/ybm.png') no-repeat center;
+}
+.wsh , .ybm , .ysh , .yjj {
+    width: 12px;
+    height: 55px;
+    padding: 8px 10px;
+    margin-bottom: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+	*background: url('../../images/dsh.png') no-repeat center;
+	background: #e0e0e0;
+	cursor: pointer;
+}
+.neiron {
+	float: left;
+	width:906px;
+	min-height:140px;
+}
+
+.jujue {
+	float: left;
+	margin-left: 5px;
+	color: #CCCCCC;
+	width: 72px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #CCCCCC;
+	margin-top:10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.jujue:hover {
+	color: red;
+	border: 1px solid red;
+}
+.jujue:active {
+	color:white;
+	background-color:red;
+}
+.tg {
+	float: left;
+	color: #CCCCCC;
+	width: 72px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #CCCCCC;
+	margin-top:10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.tg:hover {
+	color: lime;
+	border: 1px solid lime;
+}
+.tg:active {
+	color:white;
+	background-color:lime;
+}
+
+.member-attrs {
+	max-width: 450px;
+	word-break: break-all;
+}
+
+/*vip录入 ， 批量下载，导出到excel 样式*/
+.team-opration-entry {
+	overflow: hidden;
+}
+.btn-group {
+	text-align: right;
+}
+.tri-angle {
+	display: block;
+	position: absolute;
+	top: -20px;
+	right: 180px;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-bottom: 10px solid #ccc; 
+}
+.tri-angle-inner {
+	display: block;
+	position: absolute;
+	border: 8px solid transparent;
+	border-bottom-color: #fff;
+	top: -6px;
+	right: -8px;
+}
+.input-entry {
+	display: none;
+	position: relative;
+	margin-top: 10px;
+	/*margin-left: 33px;*/
+	padding: 10px;
+	border:1px solid #ccc;
+	/*background: #f9f9f9;*/
+	/*transition:all 0.5s;*/
+	/*overflow: hidden;*/
+}
+.input-entry .close {
+	display: block;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	width: 25px;
+	height: 25px;
+	line-height: 20px;
+	border: 2px solid #ccc;
+	border-radius: 50%;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #ccc;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+.input-entry .close:hover {
+	color: red;
+	border-color: red;
+}
+.ui-form {
+	position: relative;
+	float: left;
+}
+.input-form-w label,
+.import-form-w label{
+	width: auto;
+	min-width: 70px;
+	margin-right: 0;
+	text-align: center;
+}
+.ui-form .ui-form-required {
+	margin-right: 0;
+}
+.ui-form .form-btns {
+	margin-bottom: 0;
+}
+.dbm-form-submit {
+	float: left;
+	margin-left: 170px;
+}
+.input-form-w {
+	padding-right: 40px;
+}
+.input-form-w:after {
+	content: '';
+	position: absolute;
+	width: 0px;
+	height: 75%;
+	top: 10px;
+	right: 0;
+	border: 1px solid #f0f0f0;
+}
+.import-form-w {
+	margin-left: 40px;
+}
+.import-form-w .des {
+	padding: 0 0 10px 10px;
+	color: #C3C3C3;
+}
+.import-form-w .form-btns {
+	padding-left: 70px;
+}
+.import-form-w .batch-import-btn {
+	margin-left: 72px
+}
+.import-form-w .file-upload-w {
+	width: 250px;
+	padding: 5px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.import-form-w .select-file-btn {
+	padding: 0;
+}
+.import-form-w  .upload-message {
+	/*height: 30px;
+    line-height: 30px;*/
+    max-width: 166px;
+    display: inline-block;
+    vertical-align: 5px;
+    text-overflow: ellipsis;
+  	overflow: hidden;
+  	white-space: nowrap;
+}
+.webuploader-pick {
+	background: none;
+	padding: 2px 3px;
+	color: #666;
+}

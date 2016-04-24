@@ -1,0 +1,35 @@
+
+.section-bd { 
+    padding: 1em 1em 5em 1em;
+    background: #fff; 
+    overflow: hidden;
+    font-size: 14px;
+}
+.section-content img {
+    max-width: 940px;
+}
+.news-title {
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+.news-time {
+    margin-top: 1em;
+    font-size: 0.8em;
+    color: #999;
+}
+.section-content {
+    margin-top: 1em;
+}
+
+
+
+@media screen and (max-width: 640px) {
+    body { background: #ccc; }
+    .section-content p { padding: 0;}
+    .section-content img { width: 100%;}
+}
+
+
+@media screen and (max-width: 480px) {
+    .section-content img { width: 100%;}
+}

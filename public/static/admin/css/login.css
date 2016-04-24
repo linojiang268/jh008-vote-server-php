@@ -1,0 +1,14 @@
+.container {
+    display: block;
+    background-color: #FF9934;
+}
+.container .login {
+    top: 40%;
+}
+
+#username {
+  background: #FFF url('') no-repeat 8px 6px;
+}
+#username {
+  background-image: url('../../images/login/account.jpg');
+}
